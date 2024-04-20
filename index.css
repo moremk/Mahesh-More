@@ -1,0 +1,261 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+header{
+ 
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 10px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 600px) {
+    header{
+      
+      margin-left: -80px;
+      margin-top: -5px;
+    }
+  }
+header s{
+    color:rgb(236, 23, 59);
+    font-family: bold;
+    font-size: 30px;
+   }
+   header h{
+       color:white;
+       font-family: bold;
+       font-size: 25px;
+      }
+      
+.demo{
+    max-width: 1200px;
+    max-height: 50px;
+}
+.demo a {
+    text-decoration: none;
+    padding-right: 50px;
+    margin-top: -15px;
+    font-family: bold;
+    float: right;
+    color:white;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .demo a{
+   
+    padding-top: 20px;
+    width: 1200;
+    margin: auto;
+    
+  }
+}
+   a:hover{
+    color:rgb(231, 28, 62);  
+  }
+  .tom{
+    margin-top: 150px;
+    float:right;
+    margin-right: -600px;
+   
+  }
+  @media screen and (max-width: 600px) {
+    .tom{
+    
+      margin-top: 30px;
+      margin-right: 200px;
+     font-size: 15px;
+    }
+  }
+  .about p{
+    
+    margin-top: 500px;
+    border-bottom: 1px solid rgb(228, 23, 57);
+    color:white;
+    font-size: 40px;
+    font-family:  Bold;
+  }
+  
+  .s{
+    float: right;
+    margin-top: 50px;
+    margin-right: 800px;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+  }
+  l{
+    padding-top: 100px;
+    font-size: 20px;
+    color:white;
+  }
+  .m{
+    float: right;
+    margin-top: -150px;
+    margin-right: 400px;
+    text-decoration: none;
+    color: rgb(173, 173, 173);
+  }
+  o{
+    font-size: 20px;
+    color:white;
+  }
+
+  @media screen and (max-width: 600px) {
+    .m{
+     margin-top: 40px;
+     margin-right: 130px;
+     font-size: 100%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .s{
+     margin-top: 40px;
+     margin-right: 60px;
+     font-size: 100%;
+    }
+  }
+  .sav{
+    height: 30rem;
+   }
+   .project c{
+    padding-top: 570px;
+    border-bottom: 1px solid rgb(228, 23, 57);
+    color:white;
+    font-size: 40px;
+  }
+  .project table{
+    margin: auto;
+    color: white;
+  }
+  .project th{
+   
+    color: rgb(228, 23, 57);
+  }
+
+   h{
+
+    border-bottom: 1px solid rgb(228, 23, 57);
+    color:white;
+    font-size: 40px;
+  }
+ 
+  .log{
+    margin-top: 100px;
+    float: right;
+    margin-right: 800px;
+    color:rgb(226, 31, 63);
+  }
+  .log a{
+    
+    color:white;
+  }
+
+  .fa-envelope{
+    margin-top: 130px;
+    margin-left: 50px;
+   font-size: 20px;
+   color: rgb(223, 24, 57);
+  }
+  .fa-address-book{
+    margin-top: 20px;
+    margin-left: 50px;
+   font-size: 20px;
+   color: rgb(223, 24, 57);
+  }
+  .fa-whatsapp{
+    margin-top: 20px;
+    margin-left: 30px;
+   font-size: 20px;
+   color: rgb(136, 133, 133);
+  }
+  .fa-instagram{
+    margin-left: 50px;
+   font-size: 20px;
+   color: rgb(136, 133, 133);
+  }
+  input[type='submit']
+  {
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(223, 24, 57);
+  }
+  @media screen and (max-width: 600px) {
+    .log{
+     margin-top: -20px;
+     margin-right: 150px;
+     font-size: 100%;
+    }
+  }
+  .dom{
+ 
+    float: right;
+    margin-right: 300px;
+    margin-top: -165px;
+  }
+  @media screen and (max-width: 600px) {
+    .dom{
+     margin-top: 40px;
+     margin-right: 40px;
+     font-size: 100%;
+    }
+  }
+  input[type='text']
+  {
+    width:400px;
+    height: 40px;
+    border:none;
+    opacity: 1px;
+    cursor: pointer;
+    background-color: rgb(59, 59, 59);
+  }
+  textarea{
+    width:400px;
+    height: 40px;
+    border:none;
+    opacity: 1px;
+    cursor: pointer;
+    background-color: rgb(59, 59, 59);
+  }
+  button{
+   width: 200px;
+    height: 50px;
+  
+    border: none;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(223, 24, 57);
+  }
+  footer {
+    margin-top: 460px;
+    background-color: rgb(92, 92, 92);
+    color:white;
+    text-align: center;
+    
+   
+  }
+  .fa-copyright{
+    font-size: 20px;
+   color: white;
+  
+  }
+  .fa-heart{
+    font-size: 20px;
+    color: rgb(223, 24, 57);
+  }
+  @media screen and (max-width: 600px) {
+    footer {
+     
+      background-color: black;
+      text-align: center;
+      width: 100%;
+      height: 40px;
+      padding-bottom: 20px;
+      margin-top: 550px;
+     
+      
+    }
+  }
