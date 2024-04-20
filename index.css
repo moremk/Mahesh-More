@@ -79,7 +79,7 @@ header s{
   .s{
     float: right;
     margin-top: 50px;
-    margin-right: 800px;
+    margin-right: 700px;
     text-decoration: none;
     color: rgb(173, 173, 173);
   }
@@ -91,7 +91,7 @@ header s{
   .m{
     float: right;
     margin-top: -150px;
-    margin-right: 400px;
+    margin-right: 380px;
     text-decoration: none;
     color: rgb(173, 173, 173);
   }
@@ -131,7 +131,16 @@ header s{
    
     color: rgb(228, 23, 57);
   }
-
+  .project td{
+   
+    font-size: 15px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .project td{
+      font-size: 100%;
+    }
+  }
    h{
 
     border-bottom: 1px solid rgb(228, 23, 57);
@@ -142,7 +151,7 @@ header s{
   .log{
     margin-top: 100px;
     float: right;
-    margin-right: 800px;
+    margin-right: 710px;
     color:rgb(226, 31, 63);
   }
   .log a{
@@ -193,7 +202,7 @@ header s{
   .dom{
  
     float: right;
-    margin-right: 300px;
+    margin-right: 280px;
     margin-top: -165px;
   }
   @media screen and (max-width: 600px) {
